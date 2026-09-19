@@ -1,0 +1,17 @@
+name: New adapter
+description: Propose or claim an adapter for a platform.
+labels: [adapter]
+body:
+  - type: input
+    id: platform
+    attributes: { label: Platform / framework }
+    validations: { required: true }
+  - type: checkboxes
+    id: claim
+    attributes:
+      label: Are you building it?
+      options:
+        - label: I'd like to build this one
+  - type: textarea
+    id: notes
+    attributes: { label: Where would the key live, and how are routes added on this platform? }

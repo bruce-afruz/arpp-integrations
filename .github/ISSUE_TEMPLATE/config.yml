@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Protocol, spec and test vectors
+    url: https://github.com/bruce-afruz/piruz-agent-receipt
+    about: Wire-format questions belong in the spec repository.

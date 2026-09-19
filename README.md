@@ -22,3 +22,10 @@ repository before enabling it for private content.
 PARP uses HTTPS; it deliberately does not need a URI scheme. Its current vendor
 media type is `application/vnd.piruz.agent-rights` and its extension relation is
 defined in the PARP specification.
+
+## Contributing
+
+New platform adapters are welcome: Cloudflare Workers, Next.js, Django, Laravel, Rails, Go and more.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the checklist, check your signer against the
+[test vectors](https://github.com/bruce-afruz/piruz-agent-receipt/blob/main/test-vectors/v0.1.json),
+and look for issues labelled `good first issue`.
