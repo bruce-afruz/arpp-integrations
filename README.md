@@ -1,7 +1,7 @@
 # PARP Integrations
 
 Installable integration starters for the Piruz Agent Receipt Protocol (PARP),
-initiated by Piruz Afruz MB. MIT licensed. Each site keeps its own signing key.
+initiated by Piruz Afruz MB. MIT licensed. Version 1.0.1. Each site keeps its own signing key.
 
 ## Choose an adapter
 
