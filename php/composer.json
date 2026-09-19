@@ -1,0 +1,1 @@
+{"name":"piruz-afruz/parp-php","description":"PARP PHP response helpers","type":"library","license":"MIT","autoload":{"psr-4":{"PiruzAfruz\\Parp\\":"src/"}},"require":{"php":">=8.1"}}
