@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Piruz Agent Receipt Protocol
- * Description: Adds an opt-in PARP manifest endpoint and Link header.
+ * Plugin Name: Agent Rights & Provenance Protocol
+ * Description: Adds an opt-in ARPP manifest endpoint and Link header.
  * Version: 1.0.1
  * Requires PHP: 8.1
  * License: MIT
