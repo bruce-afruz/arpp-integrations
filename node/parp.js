@@ -1,5 +1,5 @@
 /** Node/Express adapter. Supply a pre-signed PARP token from your secure CMS or build pipeline. */
-export const PARP_REL = "https://github.com/bruce-afruz/piruz-agent-receipt/blob/main/SPEC.md#transport";
+export const PARP_REL = "https://github.com/bruce-afruz/arpp/blob/main/SPEC.md#transport";
 export const PARP_TYPE = "application/vnd.piruz.agent-rights";
 
 export function parp({ manifestPath = "/parp", tokenFor }) {

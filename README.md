@@ -1,6 +1,6 @@
-# PARP Integrations
+# ARPP Integrations
 
-Installable integration starters for the Piruz Agent Receipt Protocol (PARP),
+Installable integration starters for the Agent Rights & Provenance Protocol (ARPP),
 initiated by Piruz Afruz MB. MIT licensed. Version 1.0.1. Each site keeps its own signing key.
 
 ## Choose an adapter
@@ -19,7 +19,7 @@ publisher. Do not put private keys in themes, plugins, browser JavaScript or a
 public repository. Test every endpoint with the verification tools in the PARP
 repository before enabling it for private content.
 
-PARP uses HTTPS; it deliberately does not need a URI scheme. Its current vendor
+ARPP uses HTTPS; it deliberately does not need a URI scheme. Its current vendor
 media type is `application/vnd.piruz.agent-rights` and its extension relation is
 defined in the PARP specification.
 

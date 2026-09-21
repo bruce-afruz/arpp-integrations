@@ -4,7 +4,7 @@ namespace PiruzAfruz\Parp;
 
 final class Parp {
     public const TYPE = 'application/vnd.piruz.agent-rights';
-    public const REL = 'https://github.com/bruce-afruz/piruz-agent-receipt/blob/main/SPEC.md#transport';
+    public const REL = 'https://github.com/bruce-afruz/arpp/blob/main/SPEC.md#transport';
 
     /** Call before any response body is emitted. */
     public static function link(string $manifestPath): void {

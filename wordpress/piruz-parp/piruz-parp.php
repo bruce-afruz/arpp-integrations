@@ -8,7 +8,7 @@
  */
 defined('ABSPATH') || exit;
 const PIRUZ_PARP_TYPE = 'application/vnd.piruz.agent-rights';
-const PIRUZ_PARP_REL = 'https://github.com/bruce-afruz/piruz-agent-receipt/blob/main/SPEC.md#transport';
+const PIRUZ_PARP_REL = 'https://github.com/bruce-afruz/arpp/blob/main/SPEC.md#transport';
 add_action('init', function () { add_rewrite_rule('^parp/?$', 'index.php?piruz_parp=1', 'top'); });
 add_filter('query_vars', fn($vars) => array_merge($vars, ['piruz_parp']));
 register_activation_hook(__FILE__, function () { flush_rewrite_rules(); });

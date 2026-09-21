@@ -4,7 +4,7 @@ namespace PiruzAfruz.Parp;
 public sealed class ParpMiddleware(RequestDelegate next, Func<HttpContext, string?> tokenFor)
 {
     const string Type = "application/vnd.piruz.agent-rights";
-    const string Rel = "https://github.com/bruce-afruz/piruz-agent-receipt/blob/main/SPEC.md#transport";
+    const string Rel = "https://github.com/bruce-afruz/arpp/blob/main/SPEC.md#transport";
     public async Task InvokeAsync(HttpContext context)
     {
         var token = tokenFor(context);
